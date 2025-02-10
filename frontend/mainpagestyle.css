@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Align items at the top */
+    flex-direction: column;
+    margin: 0;             
+    background-color: rgb(149, 149, 211);
+}
+
+h1 {
+    text-align: center;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px; /* Add some space between button groups */
+}
+
+.button-group button {
+    margin: 0 10px; /* Space between buttons */
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#outputUsers{
+    font-family: Verdana;
+    font-size: 1em;
+    background-color: rgb(149, 149, 211);
+    text-align: center;
+}
+
+#outputTest2{
+    font-family: Verdana;
+    font-size: 1em;
+    background-color: rgb(149, 149, 211);
+    text-align: center;
+}
+
+#outputTest3{
+    font-family: Verdana;
+    font-size: 1em;
+    background-color: rgb(149, 149, 211);
+    text-align: center;
+}
+
+#outputTest4{
+    font-family: Verdana;
+    font-size: 1em;
+    background-color: rgb(149, 149, 211);
+    text-align: center;
+}
+
+#outputTest5{
+    font-family: Verdana;
+    font-size: 1em;
+    background-color: rgb(149, 149, 211);
+    text-align: center;
+}
+
+#outputTest6{
+    font-family: Verdana;
+    font-size: 1em;
+    background-color: rgb(149, 149, 211);
+    text-align: center;
+}
+
+
+

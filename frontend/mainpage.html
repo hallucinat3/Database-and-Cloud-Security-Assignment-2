@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XYZ Inventory</title>
+    <link rel="stylesheet" href="mainpagestyle.css">
+</head>
+<body>
+    <h1>Main Menu</h1>
+
+    <div class="button-group">
+        <button id="testBtn">Show Users</button>
+    </div>
+    <pre id="outputUsers"></pre>
+
+    <div class="button-group">
+        <button id="test2Btn">Show Customer</button>
+        <button id="updateTest2Btn" data-table="Customer">Update</button>
+        <button id="insertTest2Btn" data-table="Customer">Insert</button>
+        <button id="deleteTest2Btn" data-table="Customer">Delete</button>
+    </div>
+    <pre id="outputTest2"></pre>
+
+    <div class="button-group">
+        <button id="test3Btn">Show Product</button>
+        <button id="updateTest3Btn" data-table="Product">Update</button>
+        <button id="insertTest3Btn" data-table="Product">Insert</button>
+        <button id="deleteTest3Btn" data-table="Product">Delete</button>
+    </div>
+    <pre id="outputTest3"></pre>
+
+    <div class="button-group">
+        <button id="test4Btn">Show Product Inventory</button>
+        <button id="updateTest4Btn" data-table="ProductInventory">Update</button>
+        <button id="insertTest4Btn" data-table="ProductInventory">Insert</button>
+        <button id="deleteTest4Btn" data-table="ProductInventory">Delete</button>
+    </div>
+    <pre id="outputTest4"></pre>
+
+    <div class="button-group">
+        <button id="test6Btn">Show Order Details</button>
+        <button id="updateTest6Btn" data-table="OrderDetails">Update</button>
+        <button id="insertTest6Btn" data-table="OrderDetails">Insert</button>
+        <button id="deleteTest6Btn" data-table="OrderDetails">Delete</button>
+    </div>
+    <pre id="outputTest6"></pre>
+
+    <!-- Add query input field and execute button, initially hidden -->
+    <div id="queryInputContainer" style="display:none;">
+        <label id="alterQueryLabel" for="alterQuery">Enter ALTER TABLE Query:</label>
+        <input type="text" id="alterQuery" placeholder="e.g., ADD column_name datatype">
+        <button id="executeQueryBtn">Execute</button>
+        <pre id="resultQuery"></pre>
+    </div>
+
+    
+
+    <button id="logoutBtn">Logout</button>
+
+    <!-- Container for JSON -->
+    <div id="logContainer"></div>
+
+    <script src="mainpage.js"></script>
+</body>
+</html>
